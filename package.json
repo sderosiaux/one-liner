@@ -1,6 +1,6 @@
 {
   "name": "one-liner",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Transform a string to a one line string by converting and merging line breaks/carriages, tabs, spaces",
   "main": "index.js",
   "scripts": {
@@ -12,7 +12,9 @@
   },
   "author": "Stéphane DEROSIAUX <derste@gmail.com>",
   "keywords": [
-    "string", "oneline", "oneliner"
+    "string",
+    "oneline",
+    "oneliner"
   ],
   "license": "MIT",
   "bugs": {
