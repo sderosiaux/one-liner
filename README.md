@@ -17,14 +17,14 @@ $ npm install --save one-liner
 ```js
 var oneliner = require('oneliner');
 
-oneliner(`Hey !
-This is my text file
+var oneline = oneliner(`Hey !
+  This is my text file
   with a lot of blabla and some code:
     function t(a, b) {
       return a + b;
     }`);
 
-// Output :
+console.log(oneline);
 // Hey ! This is my text file with a lot of blabla and some code: function t(a, b) { return a + b; }
 ```
 
