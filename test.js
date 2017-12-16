@@ -16,3 +16,10 @@ It truly is phenomenal
 based on what they say`
 
 tap.equal(another, 'This is amazing. It truly is phenomenal based on what they say')
+
+const foo = 'toto'
+const multiple = oneliner`This is amazing.
+It truly is phenomenal ${foo}
+based on what they say`
+
+tap.equal(multiple, 'This is amazing. It truly is phenomenal toto based on what they say')

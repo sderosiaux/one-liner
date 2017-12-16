@@ -1,8 +1,7 @@
 {
   "name": "one-liner",
-  "version": "1.1.0",
-  "description":
-    "Transform a string to a one line string by converting and merging line breaks/carriages, tabs, spaces",
+  "version": "1.2.0",
+  "description": "Transform a string to a one line string by converting and merging line breaks/carriages, tabs, spaces",
   "main": "index.js",
   "scripts": {
     "test": "tap test.js"
@@ -12,13 +11,18 @@
     "url": "git+https://github.com/chtefi/one-liner.git"
   },
   "author": "Stéphane DEROSIAUX <derste@gmail.com>",
-  "keywords": ["string", "oneline", "oneliner"],
+  "keywords": [
+    "string",
+    "oneline",
+    "oneliner"
+  ],
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/chtefi/one-liner/issues"
   },
   "homepage": "https://github.com/chtefi/one-liner#readme",
   "dependencies": {
+    "interleave-array": "^1.0.1",
     "tap": "^11.0.0"
   }
 }
