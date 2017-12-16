@@ -1,3 +1,10 @@
-module.exports = function oneliner(str) {
-  return (str.raw ? str.raw[0] : str).replace(/[\r\n\t ]+/g, ' ')
+const interleave = require('interleave-array')
+
+module.exports = function oneliner(strings, ...values) {
+  const str = strings.raw ? processTemplateLiterals(strings, values) : strings
+  return str.replace(/[\r\n\t ]+/g, ' ')
+}
+
+function processTemplateLiterals(strings, values) {
+  return strings.reduce((res, v, i) => res + v + (values[i] || ''), '')
 }
