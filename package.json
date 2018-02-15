@@ -22,7 +22,6 @@
   },
   "homepage": "https://github.com/chtefi/one-liner#readme",
   "dependencies": {
-    "interleave-array": "^1.0.1",
     "tap": "^11.0.0"
   }
 }
