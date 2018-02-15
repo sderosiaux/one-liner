@@ -1,6 +1,6 @@
 {
   "name": "one-liner",
-  "version": "1.2.0",
+  "version": "1.3.0",
   "description": "Transform a string to a one line string by converting and merging line breaks/carriages, tabs, spaces",
   "main": "index.js",
   "scripts": {
