@@ -21,7 +21,7 @@
     "url": "https://github.com/chtefi/one-liner/issues"
   },
   "homepage": "https://github.com/chtefi/one-liner#readme",
-  "dependencies": {
+  "devDependencies": {
     "tap": "^11.0.0"
   }
 }
